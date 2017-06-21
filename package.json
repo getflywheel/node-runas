@@ -5,15 +5,15 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/atom/node-runas/raw/master/LICENSE.md"
+      "url": "http://github.com/getflywheel/node-runas/raw/master/LICENSE.md"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-runas.git"
+    "url": "https://github.com/getflywheel/node-runas.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/node-runas/issues"
+    "url": "https://github.com/getflywheel/node-runas/issues"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
