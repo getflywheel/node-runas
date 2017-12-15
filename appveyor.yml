@@ -1,0 +1,26 @@
+image: Visual Studio 2017
+version: "{build}"
+
+skip_tags: true
+
+platform:
+  - x64
+
+init:
+  - git config --global core.autocrlf input
+
+install:
+  - ps: Install-Product node 8
+  - yarn global add prebuild
+  - yarn install
+
+build_script:
+  - node --version
+  - yarn --version
+  - prebuild --all --strip -u %github_token%
+
+test: off
+
+environment:
+  github_token:
+    secure: NcZvncAoabpEOygUWF0I8Y8/xZAQruWadpQIOibJMeEd1QDtCqKbrmJdHFgSnlRG
