@@ -10,7 +10,7 @@ init:
   - git config --global core.autocrlf input
 
 install:
-  - ps: Install-Product node 8
+  - ps: Install-Product node 8 $env:platform
   - yarn global add prebuild
   - yarn install
 
