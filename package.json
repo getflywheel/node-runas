@@ -1,7 +1,7 @@
 {
   "main": "./lib/runas.js",
   "name": "runas",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "licenses": [
     {
       "type": "MIT",
