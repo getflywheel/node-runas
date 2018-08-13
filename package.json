@@ -1,7 +1,7 @@
 {
   "main": "./lib/runas.js",
   "name": "runas",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "licenses": [
     {
       "type": "MIT",
@@ -29,10 +29,10 @@
     "grunt-shell": "~0.2.2",
     "jasmine-focused": "^1.0.5",
     "node-cpplint": "~0.1.5",
-    "prebuild": "^6.2.0"
+    "prebuild": "^7.6.2"
   },
   "dependencies": {
     "nan": "^2.6.2",
-    "prebuild-install": "^2.1.2"
+    "prebuild-install": "^5.0.0"
   }
 }
