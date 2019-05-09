@@ -17,8 +17,7 @@ install:
 build_script:
   - node --version
   - yarn --version
-  - prebuild -r electron --arch ia32 -t 3.0.4 -t 4.0.0 -t 5.0.1 -u %github_token%
-  - prebuild -r electron --arch x64 -t 3.0.4 -t 4.0.0 -t 5.0.1 -u %github_token%
+  - prebuild -r electron --arch ia32 -t 3.0.4 -t 4.2.0 -u %github_token%
 
 test: off
 
